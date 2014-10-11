@@ -1,0 +1,5 @@
+Error trying to get user: Error trying to conect to DB: Unknown database 'uusers_tasks'
+Error trying to conect to DB: Unknown database 'uusers_tasks'
+Error trying to get user: Error trying to conect to DB: Unknown database 'uusers_tasks'
+Error trying to conect to DB: Access denied for user 'info'@'localhost' (using password: YES)
+Error trying to get user: Error trying to conect to DB: Access denied for user 'info'@'localhost' (using password: YES)
