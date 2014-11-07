@@ -3,10 +3,10 @@ require_once 'bootstrap.php';
 
 $newCityName = $argv[1];
 
-$ciudad= new City();
-$ciudad->setName($newCiudadName);
-$provincia->setName($newProvinceName);
+$city= new City();
+$city->setName($newCityNameName);
+$province->setName($newProvinceName);
 
-$entityManager->persist($provincia);
+$entityManager->persist($province);
 $entityManager->flush();
 ?>

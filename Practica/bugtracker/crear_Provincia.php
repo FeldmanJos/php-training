@@ -4,16 +4,16 @@ require_once 'bootstrap.php';
 $newProvinceName = $argv[1];
 $newCityName = $argv[2];
 
-$provincia= new Province();
-$provincia->setName($newProvinceName);
+$province= new Province();
+$province->setName($newProvinceName);
 
 $city= new City();
 $city->setName($newCityName);
 
-$provincia->getCities()->add($city);
-$city->setProvince($provincia);
+$province->getCities()->add($city);
+$city->setProvince($province);
 
-$entityManager->persist($provincia);
+$entityManager->persist($province);
 $entityManager->persist($city);
 $entityManager->flush();
 ?>
