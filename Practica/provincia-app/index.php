@@ -27,8 +27,9 @@
                     </ul>
                 </div>
                 <div class="column-right">
-                    <ul>Example 3</ul>
-                    <ul>Example 4</ul>
+                    <ul id="cities">
+                    </ul>
+                        
                 </div>
             </div>
         </div>
