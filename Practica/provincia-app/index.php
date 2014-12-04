@@ -13,23 +13,24 @@
             <div class="search">
                 <input type="text" id="searchbox" name="searchbox" placeholder="Search..." method="GET">
                 <input type="submit" id="searchbtn" value="Search"/>
+                
             </div>
             <div class="resultbox">
                 <div class="column-left">
-                    <ul id="results">
-                        <li>Example 1</li>
-                        <br>
-                        <li>Example 2</li>
-                        <br>
-                        <li>Example 3</li>
-                        <br>
-                        <li>Example 4</li>
+                    <ul id="provinces">
+                        <li>1. Ingrese una provincia en la búsqueda...</li>
+                    </ul>
+                    <ul id="contProv">
+                        <li></li>
                     </ul>
                 </div>
                 <div class="column-right">
                     <ul id="cities">
+                        <li>2. Seleccione una provincia de la lista a la izquierda para ver sus ciudades...</li>
                     </ul>
-                        
+                    <ul id="contCities">
+                        <li></li>
+                    </ul>
                 </div>
             </div>
         </div>

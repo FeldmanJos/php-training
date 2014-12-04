@@ -10,19 +10,25 @@
 }
 
 .column-left {
+    margin-top: 10px;
     float: left;
     display: inline-block;
     width: 500px;
     border-style:solid;
     border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 .column-right {
+    margin-top: 10px;
     float: right;
     display: inline-block;
     width: 500px;
     border-style:solid;
     border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 ul#results li:hover{
